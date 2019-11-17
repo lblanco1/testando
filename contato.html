@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize - Navbar</title>
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="socialsider-v1.0/_css/socialsider-v1.0.css" media="all" />
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	
+</head>
+
+<body style="background-color: rgb(255, 255, 255)">
+    <div class="socialsider socialsider_right_middle socialsider_fixed socialsider_bgcolor_white socialsider_radius socialsider_spacer ">
+        <ul>
+            <li>
+            <a data-socialsider="facebook" href="#" title="Facebook"></a>
+            </li>
+            <li>
+            <a data-socialsider="instagram" href="#" title="Instagram"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="navbar-fixed" id="inicio">
+        <nav>
+		<div class="container">
+            <div class="nav-wrapper">
+                <!-- Logo -->
+                <a href="#" class="brand-logo"> <img src="imagen/esmalte2_atualizado.png" alt=""></a>
+                
+                <!-- Ícone para abrir no Mobile -->
+                <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul id="navbar-items" class="right hide-on-med-and-down ">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre min</a></li>
+                    <li>
+                        <a class="dropdown-trigger" data-target="dropdown-menu" href="#">
+                            Contatos <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Dropdown -->
+                <ul id="dropdown-menu" class="dropdown-content">
+                    <li><a href="#contato">Telefone</a></li>
+                    <li><a href="#contato">E-mail</a></li>
+                    <!--<li class="divider"></li>
+                    <li><a href="#rede">Redes sociais</a></li>-->
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Menu Mobile -->
+    <ul id="mobile-navbar" class="sidenav">
+        <li><a href="index.html#inicio">Início</a></li>
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="index.html#contato">Contatos</a></li>
+    </ul>
+	
+	<div class="parallax-container">
+      <div class="parallax"><img class="responsive-img" src="imagen/unhas5.jpg"></div>
+    </div> 
+	
+	<div class="container">
+        <h4 class="tutulo">10% Desconto para agendamentos realizado pelo nosso sites</h4>
+		<center><h3 class="submenu">Trabalhamos com todos os tipos de modelos</h3></center>
+			<div class="row">
+				<div class="col s12 m6  l4">
+					<center>
+					<p class="titulochamada">Esmaltação</p>
+					<img class="responsive-img" src="imagen/unhas.png">
+					</center>
+				</div>
+				<div class="col s12 m6  l4">
+					<center>
+					<p class="titulochamada">Unhas de fibra</p>
+					<img class="responsive-img" src="imagen/unhas.png">
+					</center>
+				</div>
+				<div class="col s12 m6  l4">
+					<center>
+					<p class="titulochamada">Unhas decoradas</p>
+					<img class="responsive-img" src="imagen/unhas.png">
+					</center>
+				</div>
+            
+            
+                    <div class="col s12 m6  l4">
+                        <center>
+                        <p class="titulochamada">Unhas de Gel</p>
+                        <img class="responsive-img" src="imagen/unhas.png">
+                        </center>
+                    </div>
+                    <div class="col s12 m6  l4">
+                        <center>
+                        <p class="titulochamada">Cutilagem fundinha</p>
+                        <img class="responsive-img" src="imagen/pes6.png">
+                        </center>
+                    </div>
+                    <div class="col s12 m6  l4">
+                        <center id="atend">
+                        <p class="titulochamada">Pés perfeito</p>
+                        <img class="responsive-img" src="imagen/pes4.png">
+                        </center>
+                    </div>
+                </div>
+            </div>
+           
+    </div>
+    
+    <center >
+        <h4 class="atendimento">
+            Horarios de atendimento
+        </h4><div id="sobre"></div> 
+        <p class="horas">Atendemos de Segunda a Sabádo, das 09:00hrs ás 18hrs com agendamento marcados<br>
+            Para consultar nossos preços entre em contato sem compromisso.
+        </p>
+        <p></p>
+        
+    </center>
+        <div class="container cont2" >
+            <h3>Sobre min</h3>
+            <div class="row">
+                <div class="col s12 m12 l12 ">
+                    <div class="imagem">
+                <img class="responsive-img" src="imagen/suafoto.png" alt="" ></div>
+                <p class="texto"> Carla Fonseca é manicure profissional há mais de 2 anos.
+                    É conhecida como raínha da cutícula, com mais de 200seguidores no facebook e instagram,
+                    praticamente, se estabelecendo como uma das maiores influenciadoras no mercado de
+                    manicure do Brasil. <br>
+                    Seus trabalhos e transformações de unhas sempre são destacados nos maiores blogs de unhas decoradas do Brasil
+                    e alguns internacionais!
+                </p>
+                </div>
+            </div>
+        </div>
+        
+        <!--<section class="corpo">
+            <center><h3 style="color: rgb(33, 158, 110);">Localização</h3></center>
+         
+            <div class="conteudo">
+                <div class="imagem">
+                    <p style="color: crimson;">Conheça nossos serviços pelas redes social, Nao deixe para a ultima hora <br>
+                        agende agora, entre em contato pelo nosso whatsApp. <br>
+                     Estamos localizado na rua: aldemir de barro, Bairro: Paque D'Árvores N°254</p>
+                    <img class="responsive-img" src="imagen/agenda.png" alt="" class="responsive-img">
+                    
+                </div>
+                <div class="texto">
+                    <iframe class="responsive-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.2607804921518!2d-47.14714408568913!3d-22.866823085032138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b89a1a76f80b%3A0x8208f85fcb91a3e9!2sR.%20Presb%C3%ADtero%20Sigmundo%20Simberg%20-%20Vila%20Renascenca%2C%20Campinas%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1573883224890!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+     
+        </section>-->
+        <br><br><br><br>
+        <section>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.0697534403103!2d-46.72332688534757!3d-23.529993466319034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8907d08e923%3A0xad07c0c213d4661!2sR.%20Curuzu%2C%20194%20-%20Alto%20da%20Lapa%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005084-020!5e0!3m2!1spt-BR!2sbr!4v1573924494439!5m2!1spt-BR!2sbr" width="1280" height="550" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </section>
+
+        <br><br><br><br>
+	<footer class="page-footer" id="contato">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Entre em contato</h5>
+                <p class="grey-text text-lighten-4">Programe-se agora mesmo, agende pelo nosso whatsApp, 
+                                                    e economize tempo nos finais de semana.</p>
+                <p>Atendimento Whatsapp</p>
+                <p class="numero">019 99999-9999 <br>
+                <i class="material-icons left">email
+                    </i><b>contato@gmail.com</b></p>
+                <a class="btn waves-effect waves-light btn-large" target="blank" href="https://api.whatsapp.com/send?1=pt_BR&phone=55019999999999&text=Oi%20Tudo%20bom?%20Gostaria%20de%20agendar%20um%20horario">
+                       
+                    <i class="material-icons left">
+                        <img class="responsive-img" src="imagen/whatsapp.png" alt="whatsApp">
+                    </i><b>Fale Conosco</b>
+                </a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#inicio">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#sobre">Sobre min</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#atend">Atendimento</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright - Lucas Henrique - Todos os direitos Reservados
+   
+            </div>
+          </div>
+        </footer>
+		
+		
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+	
+	
+	
+	
+</body>
+
+</html>
